@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "azure-fullstack-app", "azure-fullstack-app", "{6D771FCB-1B14-3C97-E74B-A4B2F3C341D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{322EFC07-C87A-A5BD-5346-E6F792B6FE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartAPI", "azure-fullstack-app\backend\ShoppingCartAPI\ShoppingCartAPI.csproj", "{325B0C13-F4B2-151E-B465-B71194CA2543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{325B0C13-F4B2-151E-B465-B71194CA2543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325B0C13-F4B2-151E-B465-B71194CA2543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325B0C13-F4B2-151E-B465-B71194CA2543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325B0C13-F4B2-151E-B465-B71194CA2543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{322EFC07-C87A-A5BD-5346-E6F792B6FE25} = {6D771FCB-1B14-3C97-E74B-A4B2F3C341D1}
+		{325B0C13-F4B2-151E-B465-B71194CA2543} = {322EFC07-C87A-A5BD-5346-E6F792B6FE25}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2047BE76-649F-4C4E-9F81-D19E6BF4A2E9}
+	EndGlobalSection
+EndGlobal
